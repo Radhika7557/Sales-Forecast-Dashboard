@@ -1,49 +1,130 @@
-# 📊 Power BI Sales Forecast Dashboard
+📊 Sales Forecast Analysis | Power BI
 
-This repository features an interactive dashboard created using **Power BI Desktop** to analyze and forecast retail sales data. Built using the **Sample Superstore dataset**, the report provides a clear breakdown of sales and profit metrics across time, regions, product categories, and customer behavior.
+This project presents an interactive Sales Forecast Analysis Dashboard built using Power BI.
+The dashboard provides insights into sales performance, profitability, customer segments, product categories, regional performance, and shipment trends.
+It helps users explore historical sales data and understand patterns that can support forecasting and business decision-making.
 
----
+🔍 Project Overview
 
-## 🧠 Project Description
+The goal of this project is to analyze sales performance across multiple dimensions, including:
 
-The primary goal of this dashboard is to help stakeholders and decision-makers:
+Total Sales, Total Quantity, Total Profit
 
-- Understand sales and profit trends over time
-- Compare year-over-year performance
-- Analyze key business metrics by region, segment, and payment mode
-- Identify high-performing product categories and shipment methods
+YOY (Year-Over-Year) Sales & Profit Trends
 
-The dashboard is designed for **quick insights** and **forecasting readiness**, providing an executive-level overview of business health.
+Regional and State-wise Sales Distribution
 
----
+Sales by Category, Sub-Category, Segment & Ship Mode
 
-## 📊 Dashboard Highlights
+Customer purchasing behavior and payment patterns
 
-### 1️⃣ Sales by Category & Sub-Category
-- Bar charts showing top-selling **categories** (Office Supplies, Technology, Furniture)
-- Highlights sub-category leaders like **Phones**, **Chairs**, and **Binders**
+Delivery performance metrics
 
-### 2️⃣ Sales & Profit Over Time (YoY)
-- Year-over-year **monthly trends** for both sales and profit (2019 vs. 2020)
-- Easily identify seasonal trends or sudden changes in business performance
+The dashboard offers a clean, dark-themed UI with slicers to filter data by region (Central, East, South, West).
 
-### 3️⃣ Geographic Performance
-- Sales & profit by **State** and **Region** (West, East, South, Central)
-- Useful for location-specific planning or strategy
+🛠️ Tools & Technologies Used
 
-### 4️⃣ Customer & Delivery Insights
-- Sales split by **Segment** (Consumer, Corporate, Home Office)
-- Delivery insights: **Average delivery days**
-- Payment behavior breakdown: **COD**, **Online**, **Card**
+Power BI – Data modeling, DAX measures, interactive dashboard
 
-### 5️⃣ Top-Level KPIs
-- **Total Sales**, **Profit**, **Quantity Sold**, and **Average Delivery Time** for a quick performance overview
+Power Query – Data cleaning & transformation
 
----
+DAX – Custom KPIs, time-series calculations, and forecast logic
 
-## 🛠️ Tools & Dataset
+Excel (Raw Data Source) – Base dataset for analysis
 
-- **Tool**: Power BI Desktop
-- **Dataset**: Sample Superstore (bundled with Power BI)
-- **Visuals**: Bar charts, stacked visuals, KPIs, and time series
+📁 Features & Insights
+✔ Sales KPIs
 
+Total Sales
+
+Total Quantity
+
+Total Profit
+
+Average Delivery Days
+
+✔ Trend Analysis
+
+YOY Monthly Sales
+
+YOY Monthly Profit
+
+✔ Geographical Insights
+
+Sales by State (Map Visual)
+
+Sales distribution by region (West, East, Central, South)
+
+✔ Category-Level Insights
+
+Sales by Category
+
+Sales by Sub-Category
+
+Sales by Segment
+
+Sales by Ship Mode
+
+✔ Customer Behavior
+
+Count of orders by payment mode (Cards, COD, Online)
+
+📈 Dashboard Preview
+
+(Add the image to your repo and link it)
+
+![Sales Forecast Dashboard](dashboard_preview.png)
+
+🔄 Workflow
+
+Data Cleaning & Preparation
+
+Loaded data in Power BI
+
+Removed inconsistencies
+
+Standardized fields
+
+Created a clean data model
+
+Data Modeling
+
+Created relationships between tables
+
+Built a star schema
+
+Designed calculated columns
+
+DAX Measures
+
+Total Sales
+
+YOY Sales & Profit
+
+Region-wise profit
+
+Trend indicators
+
+Forecasting logic (if applicable)
+
+Dashboard Development
+
+Designed visuals using charts, maps, KPIs
+
+Added slicers for easy navigation
+
+Applied dark theme for better readability
+
+📚 Key Learnings
+
+Data modeling and best practices in Power BI
+
+Creating meaningful KPIs and time-series visualizations
+
+Improving dashboard usability with filters and clean UI layouts
+
+Enhancing storytelling through data visualization techniques
+
+📝 Conclusion
+
+This Power BI dashboard provides a complete overview of sales performance and can be used by business stakeholders to understand trends, forecast sales, and make informed decisions.
